@@ -1,10 +1,6 @@
-/*
- * Author: SMRAZA KEEN
- * Date:2016/6/29
- * IDE V1.6.9
- * Email:TechnicSmraza@outlook.com
- * Function:
- */
+// This code outputs the current coordinates of a joystick to a potentiometer-controlled LED.
+// This code will be used in the design of my custom, joystick controlled laser pointer project (for my cat to play with :) )
+
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // initializing LCD Digital Pins
 int xpotPin = A0; // initializing Joystick analog pins
